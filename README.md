@@ -1,3 +1,5 @@
+![PCatSmall](https://github.com/RGBACatlord/PETCat/assets/37526906/bc898245-afd5-439d-88b1-4a545938287a)
+
 # PETCat
 This is a custom build of TF2 based of Team Comtress, tailored to creation of Team Fortress 2 unusual effects.
 All changes are in the Particle Editor only.
