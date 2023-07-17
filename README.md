@@ -1,16 +1,16 @@
-# CoolerPET
-This is a custom build of the Source Engine particle editor, tailored to creation of Team Fortress 2 unusual effects.
-*UPDATE:* Unfortunately, recent updates to tf2 have changed something somewhere which has broken CPET. It was a fun ride gamers.
+# PETCat
+This is a custom build of TF2 based of Team Comtress, tailored to creation of Team Fortress 2 unusual effects.
+All changes are in the Particle Editor only.
 
 # New Features
-Some of these features are unique to CPET while others are simply ported from new engine branches.
+Some of these features are unique to PCAT while others are simply ported from new engine branches.
 Features are as follows:
 
 * AutoView
   * When enabled, the particle preview window will zoom and position the view based off the particle system's bounding box.
 * Lock Preview
   * When on, the particle preview will stay viewing the selected system, so you can work on children and see how it affects the parent.
-* Some new general toggles
+* Toggles in both preview windows
   * Render Axes (Helpful for workshop images/videos)
   * Render Control Points (Renders axes at all CPs)
   * Render Grid
@@ -27,7 +27,7 @@ Features are as follows:
   * These can be disabled by tool window or globally with
 ```cpet_disable_keybinds_(all/modelpreview/systembrowser/particlepreview)```
 * Console
-  * Adds a better console page to the mini viewport
+  * Adds a new console window
 * Particle Definition Browser
   * Added Copy and Replace
     * Will duplicate selected systems and replace every occurence of a word with another
@@ -42,13 +42,16 @@ Features are as follows:
 * Model Preview
   * Adds an entirely new tool window to PET: see how the effect looks on a player in-editor
   * Includes a slider for effect Z offset
+  * Switch preview class, animation and team
+  * Includes a toggle to add an Unusual Cap to the player model
   * ```cpet_mdl_test_offset_(x/y/z)``` int (default 0): Particle system offset
   * ```cpet_mdl_realign_on_change``` 0/1 (default 1): Reset camera on class/anim change
 
 # Installation
 
-Drag the "Team Fortress 2" folder into your steamapps/common and replace all.
-CoolerPET will now appear in your tools list, along with the vanilla particle editor.
+Download the latest release, extract it, and run the auto install batch file.
+Specify your TF2's install location, and specify where you want PETCat to go.
+It will make a copy of TF2 but with PETCat modifications, and place an easy access shortcut on your desktop.
 
 Your particle editor's layout might be slightly screwed on first launch - fix it with View->Default Layout
 
@@ -56,9 +59,8 @@ Your particle editor's layout might be slightly screwed on first launch - fix it
 
 **Will this trigger VAC?**
 
-*It's very unlikely as it uses the source tool framework as intended,
-but I'd still recommend you run it insecure just to be super safe.
-At the end of the day, you run this at your own risk!*
+*You can't actually join servers with this as it's an old build of the game, and so there's no reason to run secure.
+I highly suggest against running secure as this is a modified client.*
 
 **Can you add X feature / fix X bug?**
 
