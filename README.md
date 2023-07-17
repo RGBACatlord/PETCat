@@ -71,3 +71,13 @@ I highly suggest against running secure as this is a modified client.*
 **Is Valve ok with this?**
 
 *I asked Valve directly and I'm still waiting for a reply, so I can only assume they don't care!*
+
+# Planned Features
+
+* Changeable preview background images
+* More model preview hats
+* Toggle for live grid previews in definition browser
+* Replace children by substring (i.e. swap ueffect_blah_red with ueffect_blah_blue)
+* Add new animations to model preview
+* More handy shortcuts and macros
+* ~~pitch to valve for official inclusion~~
