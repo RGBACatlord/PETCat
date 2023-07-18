@@ -12,8 +12,8 @@ Features are as follows:
   * When enabled, the particle preview window will zoom and position the view based off the particle system's bounding box.
 * Lock Preview
   * When on, the particle preview will stay viewing the selected system, so you can work on children and see how it affects the parent.
-* Toggles in both preview windows
-  * Render Axes (Helpful for workshop images/videos)
+* New toggles
+  * Render Axes - particle preview (Helpful for workshop images/videos)
   * Render Control Points (Renders axes at all CPs)
   * Render Grid
 * Keyboard Shortcuts
@@ -55,7 +55,7 @@ Download the latest release, extract it, and run the auto install batch file.
 Specify your TF2's install location, and specify where you want PETCat to go.
 It will make a copy of TF2 but with PETCat modifications, and place an easy access shortcut on your desktop.
 
-Your particle editor's layout might be slightly screwed on first launch - fix it with View->Default Layout
+Your particle editor's layout might be slightly screwed on first launch - fix it with View->Default Layout or Ctrl+D
 
 # FAQ
 
@@ -81,3 +81,11 @@ I highly suggest against running secure as this is a modified client.*
 * Add new animations to model preview
 * More handy shortcuts and macros
 * ~~pitch to valve for official inclusion~~
+
+# Screenshots
+
+Handy features that should have been in TF2 anyway
+![petcat_screen1](https://github.com/RGBACatlord/PETCat/assets/37526906/52819a45-26b4-4533-87b5-7a6dc469a649)
+
+You can turn off particle attribute field filters for some interesting results
+![petcat_screen2](https://github.com/RGBACatlord/PETCat/assets/37526906/372b6fa1-529b-4ff5-b687-e07d54f941c7)
